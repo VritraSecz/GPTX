@@ -45,6 +45,7 @@
 + `cd GPTX`
 + `chmod +x *`
 + `bash setup.sh`
++ `cd ~`
 
 + When installation is done then just type `gptx` in your termux and hit ENTER, GPTX will launch in your termux. And now you are ready to ask any question to GPTX. Ask your question and get your answer.
 
