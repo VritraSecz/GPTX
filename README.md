@@ -24,7 +24,8 @@
 ## Requirements
 
 > Python3 <br>
-> openai module
+> openai module<br>
+> Own openai API key
 
 ## Tested On
 
@@ -45,18 +46,25 @@
 + `cd GPTX`
 + `chmod +x *`
 + `bash setup.sh`
-+ `cd ~`
++ `nano key.py`
 
-+ When installation is done then just type `gptx` in your termux and hit ENTER, GPTX will launch in your termux. And now you are ready to ask any question to GPTX. Ask your question and get your answer.
++ Now here put your openai API key in `key.py` file. and save file by `ctrl + s` and get exit from file `ctrl + x`.
++ Now all is set.
+
++ `python gptx.py`
+
++ By this command GPTX will launch in your terminal. And now you are ready to ask any question to GPTX. Ask your question and get your answer.
 
 ## Note
-+ You can lauch GPTX anytime in your termux by command `gptx`
 + To exit from tool just type `exit` or `bye` and hit ENTER. You will get exit from prompt.
++ Ask you doubt [here](https://telegram.me/mrhackerx)
 
 ## Screenshot
 
 ![photo](https://i.ibb.co/5vXt59r/1.jpg)
+
 ![photo](https://i.ibb.co/WWZMy0w/2.jpg)
+
 ![photo](https://i.ibb.co/9TgWsR9/3.jpg)
 
 
